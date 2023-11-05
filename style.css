@@ -21,15 +21,24 @@ a {
   list-style: none;
 }
 
+body.show {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
-  margin-top: 5.2rem;
   padding: 0 2.4rem;
 
   text-align: center;
 }
 
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
 .navbar-wrapper {
+  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,8 +47,48 @@ a {
   margin-bottom: 12rem;
 }
 
-.navbar-wrapper ul {
-  display: none;
+#toggle-menu {
+  position: absolute;
+  right: 1.5rem;
+  color: #272d38;
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.nav-list ul li a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+nav .nav-list {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav.show .nav-list {
+  opacity: 1;
+  visibility: visible;
+  background-color: #272d38;
+
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  place-content: center;
+}
+
+nav.show ul.grid {
+  gap: 4rem;
+}
+
+nav.show .nav-list ul li {
+  color: #fff;
 }
 
 .main-wrapper {
@@ -47,6 +96,15 @@ a {
   flex-direction: column;
   gap: 12rem;
   margin-bottom: 12rem;
+}
+
+nav.show #toggle-menu {
+  position: absolute;
+  right: 3rem;
+  color: #fff;
+  font-size: 24px;
+
+  cursor: pointer;
 }
 
 .section-wrapper {
