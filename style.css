@@ -49,7 +49,8 @@ body.show {
 
 #toggle-menu {
   position: absolute;
-  right: 1.5rem;
+  top: 2rem;
+  right: 2rem;
   color: #272d38;
   font-size: 24px;
 
@@ -100,7 +101,7 @@ nav.show .nav-list ul li {
 
 nav.show #toggle-menu {
   position: absolute;
-  right: 1.5rem;
+  right: 2rem;
   color: #fff;
   font-size: 24px;
 
@@ -183,6 +184,10 @@ nav.show #toggle-menu {
   font-weight: 300;
 }
 
+.logo {
+  width: 14rem;
+}
+
 .img-content {
   width: 100%;
 }
@@ -203,6 +208,7 @@ footer {
 .footer-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3.2rem;
 }
 
@@ -213,4 +219,8 @@ ul li {
 
 .footer-wrapper ul li + li {
   margin-top: 2.4rem;
+}
+
+.footer-wrapper ul li a:hover {
+  font-weight: 400;
 }
