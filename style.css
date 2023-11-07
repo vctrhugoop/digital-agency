@@ -188,6 +188,8 @@ nav.show #toggle-menu {
   font-weight: 400;
 }
 .testimonials-wrapper {
+  max-width: 34.5rem;
+  width: 100%;
   border-radius: 20px;
   background: #f6f6f6;
   padding: 3.2rem 4.5rem;
