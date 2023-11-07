@@ -167,8 +167,11 @@ nav.show #toggle-menu {
 }
 
 .logos-wrapper {
+  max-width: 90rem;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   border-radius: 0.8rem;
   background: #f6f6f6;
@@ -176,7 +179,8 @@ nav.show #toggle-menu {
 }
 
 .logos-wrapper img {
-  width: 5rem;
+  max-width: 140px;
+  width: 100%;
 }
 
 .section-wrapper span {
@@ -213,6 +217,7 @@ nav.show #toggle-menu {
 }
 
 .img-content {
+  max-width: 45rem;
   width: 100%;
 }
 
