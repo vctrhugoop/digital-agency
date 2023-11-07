@@ -63,6 +63,23 @@ body.show {
   font-size: 2.4rem;
 }
 
+.nav-list ul li a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+
+  transition: width 0.2s;
+}
+
+.nav-list ul li a:hover::after {
+  width: 100%;
+}
+
 .nav-list ul li {
   transition: transform 0.2s ease-in;
 }
@@ -80,6 +97,7 @@ nav.show .nav-list {
   opacity: 1;
   visibility: visible;
   background-color: #272d38;
+  color: #fff;
 
   height: 100vh;
   width: 100vw;
@@ -94,10 +112,6 @@ nav.show .nav-list {
 
 nav.show ul.grid {
   gap: 4rem;
-}
-
-nav.show .nav-list ul li {
-  color: #fff;
 }
 
 .main-wrapper {
