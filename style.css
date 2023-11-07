@@ -52,7 +52,7 @@ body.show {
   top: 2rem;
   right: 2rem;
   color: #272d38;
-  font-size: 24px;
+  font-size: 2.4rem;
 
   cursor: pointer;
 }
@@ -60,7 +60,15 @@ body.show {
 .nav-list ul li a {
   color: #fff;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+.nav-list ul li {
+  transition: transform 0.2s ease-in;
+}
+
+.nav-list ul li:hover {
+  transform: scale(1.2);
 }
 
 nav .nav-list {
@@ -103,7 +111,7 @@ nav.show #toggle-menu {
   position: absolute;
   right: 2rem;
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
 
   cursor: pointer;
   z-index: 1;
@@ -120,7 +128,7 @@ nav.show #toggle-menu {
   width: 14rem;
   border: none;
   border-radius: 0.8rem;
-  background: #8eadd5;
+  background: #272d38;
 
   padding: 1rem 2.4rem;
 
@@ -128,10 +136,12 @@ nav.show #toggle-menu {
   text-transform: uppercase;
   font-size: 1.4rem;
   cursor: pointer;
+
+  transition: transform 0.2s ease-in;
 }
 
 .btn:hover {
-  background: #4580cc;
+  transform: scale(1.1);
 }
 
 .companies span {
