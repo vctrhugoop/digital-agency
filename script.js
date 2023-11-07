@@ -37,7 +37,7 @@ function topFunction() {
   });
 }
 
-window.sr = ScrollReveal({ reset: true });
+window.scrollReveal = ScrollReveal({ reset: true });
 
 ScrollReveal().reveal('.scroll-1', {
   delay: 100,
