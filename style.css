@@ -197,8 +197,8 @@ nav.show #toggle-menu {
 }
 
 footer {
+  padding-top: 10rem;
   background: #f6f6f6;
-  padding: 10rem 8rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -206,6 +206,7 @@ footer {
 }
 
 .footer-wrapper {
+  padding-inline: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,4 +224,10 @@ ul li {
 
 .footer-wrapper ul li a:hover {
   font-weight: 400;
+}
+
+footer span {
+  width: 100%;
+  margin-bottom: 1.8rem;
+  font-weight: 300;
 }
