@@ -128,13 +128,6 @@ nav.show #toggle-menu {
   z-index: 1;
 }
 
-.section-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.4rem;
-}
-
 .btn {
   width: 14rem;
   border: none;
@@ -160,6 +153,7 @@ nav.show #toggle-menu {
   flex-direction: column;
   align-items: center;
   gap: 1.6rem;
+  margin-top: 12rem;
 }
 .companies span {
   font-size: 1.4rem;
@@ -184,10 +178,26 @@ nav.show #toggle-menu {
   width: 100%;
 }
 
-.section-wrapper span {
+.title-section {
+  margin: 12rem 0 1.6rem;
+}
+
+.title-section span {
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+.custome {
+  margin-top: 12rem;
+}
+
+.testionials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
 .testimonials-wrapper {
   max-width: 34.5rem;
   width: 100%;
@@ -237,10 +247,6 @@ nav.show #toggle-menu {
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
-}
-
-.title-section {
-  margin: 12rem 0 1.6rem;
 }
 
 footer {
