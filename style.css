@@ -120,6 +120,10 @@ nav.show ul.grid {
   margin-bottom: 12rem;
 }
 
+.section-wrapper {
+  text-transform: capitalize;
+}
+
 nav.show #toggle-menu {
   color: #fff;
   font-size: 2.4rem;
@@ -234,7 +238,7 @@ nav.show #toggle-menu {
 }
 
 .img-content {
-  max-width: 45rem;
+  max-width: 35.8rem;
   width: 100%;
 }
 
@@ -250,22 +254,32 @@ nav.show #toggle-menu {
 }
 
 footer {
+  width: 100%;
   padding-top: 10rem;
   background: #f6f6f6;
   text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 7rem;
 }
 
-.footer-wrapper {
-  padding-inline: 8rem;
+.footer-container {
+  max-width: 106.5rem;
+  width: 100%;
+  padding-inline: 2.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3.2rem;
+  justify-content: space-between;
+  gap: 7rem;
 }
-
+.footer-wrapper .logo {
+  margin-bottom: 4rem;
+}
+.footer-wrapper p {
+  width: 20rem;
+}
 .footer-wrapper p,
 ul li {
   font-weight: 300;
@@ -273,6 +287,10 @@ ul li {
 
 .footer-wrapper ul li + li {
   margin-top: 2.4rem;
+}
+
+.footer-wrapper ul {
+  margin-top: 3.2rem;
 }
 
 .footer-wrapper ul li a:hover {
@@ -303,6 +321,45 @@ footer span {
 
 @media screen and (min-width: 768px) {
   .section-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+
+    text-align: left;
+  }
+
+  .section-wrapper.branding {
+    flex-direction: row-reverse;
+  }
+
+  .section-wrapper h1 {
+    font-size: 3rem;
+  }
+
+  .section-wrapper p {
+    font-size: 1.8rem;
+  }
+
+  .text-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-content {
+    max-width: 450px;
+  }
+
+  .section-wrapper h1 {
+    font-size: 5rem;
+  }
+
+  .testionials-container {
+    flex-direction: row;
+  }
+
+  .footer-container {
+    text-align: left;
     flex-direction: row;
   }
 }
