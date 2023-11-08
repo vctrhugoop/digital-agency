@@ -26,8 +26,11 @@ body.show {
 }
 
 .container {
+  max-width: 1065px;
   width: 100%;
   padding: 0 2.4rem;
+
+  margin: 0 auto;
 
   text-align: center;
 }
@@ -48,9 +51,6 @@ body.show {
 }
 
 #toggle-menu {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
   color: #272d38;
   font-size: 2.4rem;
 
@@ -122,8 +122,6 @@ nav.show ul.grid {
 }
 
 nav.show #toggle-menu {
-  position: absolute;
-  right: 2rem;
   color: #fff;
   font-size: 2.4rem;
 
