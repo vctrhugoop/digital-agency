@@ -158,12 +158,16 @@ nav.show #toggle-menu {
   transform: scale(1.1);
 }
 
+.companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
 .companies span {
   font-size: 1.4rem;
   font-weight: 300;
   color: #667085;
-
-  margin-bottom: 1.6rem;
 }
 
 .logos-wrapper {
