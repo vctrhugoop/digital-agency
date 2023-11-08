@@ -37,7 +37,10 @@ function topFunction() {
   });
 }
 
-ScrollReveal().reveal('.scroll', {
-  delay: 200,
+ScrollReveal({
   reset: true,
+  distance: '60px',
+});
+ScrollReveal().reveal('.scroll', {
+  delay: 400,
 });
