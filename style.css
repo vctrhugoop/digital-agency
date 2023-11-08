@@ -26,7 +26,7 @@ body.show {
 }
 
 .container {
-  max-width: 1065px;
+  max-width: 106.5rem;
   width: 100%;
   padding: 0 2.4rem;
 
@@ -117,7 +117,6 @@ nav.show ul.grid {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12rem;
   margin-bottom: 12rem;
 }
 
@@ -192,9 +191,13 @@ nav.show #toggle-menu {
 .testimonials-wrapper {
   max-width: 34.5rem;
   width: 100%;
+
   border-radius: 20px;
   background: #f6f6f6;
+
+  margin-top: 1.6rem;
   padding: 3.2rem 4.5rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,6 +237,10 @@ nav.show #toggle-menu {
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
+}
+
+.title-section {
+  margin: 12rem 0 1.6rem;
 }
 
 footer {
@@ -286,4 +293,10 @@ footer span {
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-wrapper {
+    flex-direction: row;
+  }
 }
