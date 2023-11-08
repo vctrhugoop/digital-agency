@@ -231,6 +231,13 @@ nav.show #toggle-menu {
   width: 14rem;
 }
 
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
 footer {
   padding-top: 10rem;
   background: #f6f6f6;
